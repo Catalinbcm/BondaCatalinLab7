@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BondaCatalinLab7.MainPage"
+             Title="Personalized Page">
+
+    <VerticalStackLayout Spacing="20" Padding="10" VerticalOptions="Center">
+        <Button x:Name="CounterBtn" Text="Click Me" Clicked="OnCounterClicked" />
+        <Image Source="imagine.png" 
+               HeightRequest="200" 
+               SemanticProperties.Description="Imaginea personalizată a studentului" />
+        <Label Text="Nume: Bonda Cătălin"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label Text="Specializarea: Informatică Economică"
+               FontSize="18"
+               HorizontalOptions="Center" />
+        <Label Text="Hobby: DJ"
+               FontSize="18"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
